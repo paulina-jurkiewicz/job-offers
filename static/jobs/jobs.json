@@ -1,0 +1,198 @@
+[
+	{
+		"id": "1",
+		"title": "JavaScript Develop",
+		"category": "js",
+		"company": {
+			"name": "Gowork.pl",
+			"logoUrl": "https://bucket.justjoin.it/offers/company_logos/thumb/dc4e75180b78bcb03a45080b3bdccbfe2a4e6638.png?1595941884",
+			"size": 25,
+			"location": {
+				"city": "Warszawa",
+				"street": "Prosta 69",
+				"country": "Polska"
+			}
+		},
+		"contractType": "B2B",
+		"salary": {
+			"min": 2000,
+			"max": 6000,
+			"currency": "PLN",
+			"type": "netto",
+			"period": "m"
+		},
+		"seniority": "junior",
+		"tags": [
+			"html",
+			"javascript",
+			"css"
+		],
+		"content": "<span><div>We are looking for a <strong>Senior Python Developer</strong> as a full-time position for our office in Wroclaw.</div><div><br></div><div><strong>Responsibilities</strong>:<br><br></div><ul><li>Design and implement back-end services</li><li>Integrate with third party services</li><li>Deploy applications on AWS or GCP using Docker and Kubernetes</li><li>Prepare and integrate with CI/CD systems</li></ul><div><br></div><div><strong>Job requirements<br></strong><br></div><ul><li>Fluent in <strong>English</strong> with great communication skills</li><li>2+ years experience in <strong>Python</strong></li><li>knowing one Python web framework (except Flask because <a href=\"https://www.ulam.io/blog/flask-is-a-cancer/\">Flask is a cancer</a> \uD83D\uDE03)</li><li>Knowing <strong>GIT</strong> to the bone</li><li>Good <strong>SQL</strong> understanding, preferably experience with one noSQL database (MongoDB does not count \uD83D\uDE03 )</li><li>Experience with <strong>Docker</strong></li><li>Live and breathe <strong>TDD</strong></li><li>You love <strong>pytest</strong></li></ul><div><br></div><div><strong>Nice to have:</strong><br><br></div><ul><li>Experience and passion to DevOps work, you know Ansible, Terraform or similar, you use bash everyday and can't live without proper CI/CD pipeline</li><li>Experience in Kubernetes</li><li>Experience in at least one modern <strong>JavaScript</strong> framework like <strong>Vue</strong>, <strong>React</strong> or <strong>Angular</strong> (or willing to learn)&nbsp;</li><li>Experience in<strong> leading a team</strong> (both: tech lead skills and mentorship attitude are highly appreciated)</li></ul><div><br></div><div><strong>Other perks:</strong></div><ul><li>Flexible office hours</li><li>20 paid vacation days</li><li>Superb coffee in the office</li><li>We do projects for various industries, you'll never be bored</li></ul></span>",
+		"dateCreated": "2020-07-11T22:00:00+00:00",
+		"onlineInterview": true,
+		"remote": true
+	},
+	{
+		"id": "2",
+		"title": "Junior Frontend Develop",
+		"category": "js",
+		"company": {
+			"name": "Gowork.pl",
+			"logoUrl": "https://bucket.justjoin.it/offers/company_logos/thumb/dc4e75180b78bcb03a45080b3bdccbfe2a4e6638.png?1595941884",
+			"size": 25,
+			"location": {
+				"city": "Warszawa",
+				"street": "Prosta 69",
+				"country": "Polska"
+			}
+		},
+		"contractType": "B2B",
+		"salary": {
+			"min": 4000,
+			"max": 6000,
+			"currency": "PLN",
+			"type": "netto",
+			"period": "m"
+		},
+		"seniority": "junior",
+		"tags": [
+			"html",
+			"javascript",
+			"css",
+			"bootstrap"
+		],
+		"content": "<span><div>We are looking for a <strong>Senior Python Developer</strong> as a full-time position for our office in Wroclaw.</div><div><br></div><div><strong>Responsibilities</strong>:<br><br></div><ul><li>Design and implement back-end services</li><li>Integrate with third party services</li><li>Deploy applications on AWS or GCP using Docker and Kubernetes</li><li>Prepare and integrate with CI/CD systems</li></ul><div><br></div><div><strong>Job requirements<br></strong><br></div><ul><li>Fluent in <strong>English</strong> with great communication skills</li><li>2+ years experience in <strong>Python</strong></li><li>knowing one Python web framework (except Flask because <a href=\"https://www.ulam.io/blog/flask-is-a-cancer/\">Flask is a cancer</a> \uD83D\uDE03)</li><li>Knowing <strong>GIT</strong> to the bone</li><li>Good <strong>SQL</strong> understanding, preferably experience with one noSQL database (MongoDB does not count \uD83D\uDE03 )</li><li>Experience with <strong>Docker</strong></li><li>Live and breathe <strong>TDD</strong></li><li>You love <strong>pytest</strong></li></ul><div><br></div><div><strong>Nice to have:</strong><br><br></div><ul><li>Experience and passion to DevOps work, you know Ansible, Terraform or similar, you use bash everyday and can't live without proper CI/CD pipeline</li><li>Experience in Kubernetes</li><li>Experience in at least one modern <strong>JavaScript</strong> framework like <strong>Vue</strong>, <strong>React</strong> or <strong>Angular</strong> (or willing to learn)&nbsp;</li><li>Experience in<strong> leading a team</strong> (both: tech lead skills and mentorship attitude are highly appreciated)</li></ul><div><br></div><div><strong>Other perks:</strong></div><ul><li>Flexible office hours</li><li>20 paid vacation days</li><li>Superb coffee in the office</li><li>We do projects for various industries, you'll never be bored</li></ul></span>",
+		"dateCreated": "2020-07-14T22:00:00+00:00",
+		"onlineInterview": false,
+		"remote": true
+	},
+	{
+		"id": "3",
+		"title": "Senior JavaScript Develop",
+		"category": "js",
+		"company": {
+			"name": "Gowork.pl",
+			"logoUrl": "https://bucket.justjoin.it/offers/company_logos/thumb/dc4e75180b78bcb03a45080b3bdccbfe2a4e6638.png?1595941884",
+			"size": 25,
+			"location": {
+				"city": "Warszawa",
+				"street": "Prosta 69",
+				"country": "Polska"
+			}
+		},
+		"seniority": "senior",
+		"contractType": "B2B",
+		"salary": {
+			"min": 1000,
+			"max": 2000,
+			"currency": "PLN",
+			"type": "netto",
+			"period": "m"
+		},
+		"tags": [
+			"html",
+			"javascript",
+			"css"
+		],
+		"content": "<span><div>We are looking for a <strong>Senior Python Developer</strong> as a full-time position for our office in Wroclaw.</div><div><br></div><div><strong>Responsibilities</strong>:<br><br></div><ul><li>Design and implement back-end services</li><li>Integrate with third party services</li><li>Deploy applications on AWS or GCP using Docker and Kubernetes</li><li>Prepare and integrate with CI/CD systems</li></ul><div><br></div><div><strong>Job requirements<br></strong><br></div><ul><li>Fluent in <strong>English</strong> with great communication skills</li><li>2+ years experience in <strong>Python</strong></li><li>knowing one Python web framework (except Flask because <a href=\"https://www.ulam.io/blog/flask-is-a-cancer/\">Flask is a cancer</a> \uD83D\uDE03)</li><li>Knowing <strong>GIT</strong> to the bone</li><li>Good <strong>SQL</strong> understanding, preferably experience with one noSQL database (MongoDB does not count \uD83D\uDE03 )</li><li>Experience with <strong>Docker</strong></li><li>Live and breathe <strong>TDD</strong></li><li>You love <strong>pytest</strong></li></ul><div><br></div><div><strong>Nice to have:</strong><br><br></div><ul><li>Experience and passion to DevOps work, you know Ansible, Terraform or similar, you use bash everyday and can't live without proper CI/CD pipeline</li><li>Experience in Kubernetes</li><li>Experience in at least one modern <strong>JavaScript</strong> framework like <strong>Vue</strong>, <strong>React</strong> or <strong>Angular</strong> (or willing to learn)&nbsp;</li><li>Experience in<strong> leading a team</strong> (both: tech lead skills and mentorship attitude are highly appreciated)</li></ul><div><br></div><div><strong>Other perks:</strong></div><ul><li>Flexible office hours</li><li>20 paid vacation days</li><li>Superb coffee in the office</li><li>We do projects for various industries, you'll never be bored</li></ul></span>",
+		"dateCreated": "2020-07-12T22:00:00+00:00",
+		"onlineInterview": true,
+		"remote": true
+	},
+	{
+		"id": "4",
+		"title": "React Developer",
+		"category": "js",
+		"company": {
+			"name": "Pracuj.pl",
+			"logoUrl": "https://bucket.justjoin.it/offers/company_logos/thumb/414e49d01597b33e57f64428cf49cc69ab36fa48.png?1595005699",
+			"size": 25,
+			"location": {
+				"city": "Warszawa",
+				"street": "Prosta 69",
+				"country": "Polska"
+			}
+		},
+		"seniority": "senior",
+		"contractType": "B2B",
+		"salary": {
+			"min": 1400,
+			"max": 1700,
+			"currency": "PLN",
+			"type": "netto",
+			"period": "m"
+		},
+		"tags": [
+			"html",
+			"javascript",
+			"react"
+		],
+		"content": "<span><div>We are looking for a <strong>Senior Python Developer</strong> as a full-time position for our office in Wroclaw.</div><div><br></div><div><strong>Responsibilities</strong>:<br><br></div><ul><li>Design and implement back-end services</li><li>Integrate with third party services</li><li>Deploy applications on AWS or GCP using Docker and Kubernetes</li><li>Prepare and integrate with CI/CD systems</li></ul><div><br></div><div><strong>Job requirements<br></strong><br></div><ul><li>Fluent in <strong>English</strong> with great communication skills</li><li>2+ years experience in <strong>Python</strong></li><li>knowing one Python web framework (except Flask because <a href=\"https://www.ulam.io/blog/flask-is-a-cancer/\">Flask is a cancer</a> \uD83D\uDE03)</li><li>Knowing <strong>GIT</strong> to the bone</li><li>Good <strong>SQL</strong> understanding, preferably experience with one noSQL database (MongoDB does not count \uD83D\uDE03 )</li><li>Experience with <strong>Docker</strong></li><li>Live and breathe <strong>TDD</strong></li><li>You love <strong>pytest</strong></li></ul><div><br></div><div><strong>Nice to have:</strong><br><br></div><ul><li>Experience and passion to DevOps work, you know Ansible, Terraform or similar, you use bash everyday and can't live without proper CI/CD pipeline</li><li>Experience in Kubernetes</li><li>Experience in at least one modern <strong>JavaScript</strong> framework like <strong>Vue</strong>, <strong>React</strong> or <strong>Angular</strong> (or willing to learn)&nbsp;</li><li>Experience in<strong> leading a team</strong> (both: tech lead skills and mentorship attitude are highly appreciated)</li></ul><div><br></div><div><strong>Other perks:</strong></div><ul><li>Flexible office hours</li><li>20 paid vacation days</li><li>Superb coffee in the office</li><li>We do projects for various industries, you'll never be bored</li></ul></span>",
+		"dateCreated": "2020-07-17T22:00:00+00:00",
+		"onlineInterview": true,
+		"remote": true
+	},
+	{
+		"id": "5",
+		"title": "HTML Developer",
+		"category": "html5",
+		"company": {
+			"name": "Pracuj.pl",
+			"size": 25,
+			"logoUrl": "https://bucket.justjoin.it/offers/company_logos/thumb/dc4e75180b78bcb03a45080b3bdccbfe2a4e6638.png?1595941884",
+			"location": {
+				"city": "Kraków",
+				"street": "Prosta 69",
+				"country": "Polska"
+			}
+		},
+		"seniority": "junior",
+		"contractType": "B2B",
+		"salary": {
+			"min": 5500,
+			"max": 7700,
+			"currency": "PLN",
+			"type": "netto",
+			"period": "m"
+		},
+		"tags": [
+			"html"
+		],
+		"content": "<span><div>We are looking for a <strong>Senior Python Developer</strong> as a full-time position for our office in Wroclaw.</div><div><br></div><div><strong>Responsibilities</strong>:<br><br></div><ul><li>Design and implement back-end services</li><li>Integrate with third party services</li><li>Deploy applications on AWS or GCP using Docker and Kubernetes</li><li>Prepare and integrate with CI/CD systems</li></ul><div><br></div><div><strong>Job requirements<br></strong><br></div><ul><li>Fluent in <strong>English</strong> with great communication skills</li><li>2+ years experience in <strong>Python</strong></li><li>knowing one Python web framework (except Flask because <a href=\"https://www.ulam.io/blog/flask-is-a-cancer/\">Flask is a cancer</a> \uD83D\uDE03)</li><li>Knowing <strong>GIT</strong> to the bone</li><li>Good <strong>SQL</strong> understanding, preferably experience with one noSQL database (MongoDB does not count \uD83D\uDE03 )</li><li>Experience with <strong>Docker</strong></li><li>Live and breathe <strong>TDD</strong></li><li>You love <strong>pytest</strong></li></ul><div><br></div><div><strong>Nice to have:</strong><br><br></div><ul><li>Experience and passion to DevOps work, you know Ansible, Terraform or similar, you use bash everyday and can't live without proper CI/CD pipeline</li><li>Experience in Kubernetes</li><li>Experience in at least one modern <strong>JavaScript</strong> framework like <strong>Vue</strong>, <strong>React</strong> or <strong>Angular</strong> (or willing to learn)&nbsp;</li><li>Experience in<strong> leading a team</strong> (both: tech lead skills and mentorship attitude are highly appreciated)</li></ul><div><br></div><div><strong>Other perks:</strong></div><ul><li>Flexible office hours</li><li>20 paid vacation days</li><li>Superb coffee in the office</li><li>We do projects for various industries, you'll never be bored</li></ul></span>",
+		"dateCreated": "2020-07-14T22:00:00+00:00",
+		"onlineInterview": false,
+		"remote": false
+	},
+	{
+		"id": "6",
+		"title": "PHP Developer",
+		"category": "php",
+		"company": {
+			"name": "Pracuj.pl",
+			"size": 25,
+			"logoUrl": "https://bucket.justjoin.it/offers/company_logos/thumb/414e49d01597b33e57f64428cf49cc69ab36fa48.png?1595005699",
+			"location": {
+				"city": "Poznań",
+				"street": "Prosta 69",
+				"country": "Polska"
+			}
+		},
+		"seniority": "middle",
+		"contractType": "B2B",
+		"salary": {
+			"min": 7000,
+			"max": 12000,
+			"currency": "PLN",
+			"type": "netto",
+			"period": "m"
+		},
+		"tags": [
+			"php",
+			"symfony"
+		],
+		"content": "<span><div>We are looking for a <strong>Senior Python Developer</strong> as a full-time position for our office in Wroclaw.</div><div><br></div><div><strong>Responsibilities</strong>:<br><br></div><ul><li>Design and implement back-end services</li><li>Integrate with third party services</li><li>Deploy applications on AWS or GCP using Docker and Kubernetes</li><li>Prepare and integrate with CI/CD systems</li></ul><div><br></div><div><strong>Job requirements<br></strong><br></div><ul><li>Fluent in <strong>English</strong> with great communication skills</li><li>2+ years experience in <strong>Python</strong></li><li>knowing one Python web framework (except Flask because <a href=\"https://www.ulam.io/blog/flask-is-a-cancer/\">Flask is a cancer</a> \uD83D\uDE03)</li><li>Knowing <strong>GIT</strong> to the bone</li><li>Good <strong>SQL</strong> understanding, preferably experience with one noSQL database (MongoDB does not count \uD83D\uDE03 )</li><li>Experience with <strong>Docker</strong></li><li>Live and breathe <strong>TDD</strong></li><li>You love <strong>pytest</strong></li></ul><div><br></div><div><strong>Nice to have:</strong><br><br></div><ul><li>Experience and passion to DevOps work, you know Ansible, Terraform or similar, you use bash everyday and can't live without proper CI/CD pipeline</li><li>Experience in Kubernetes</li><li>Experience in at least one modern <strong>JavaScript</strong> framework like <strong>Vue</strong>, <strong>React</strong> or <strong>Angular</strong> (or willing to learn)&nbsp;</li><li>Experience in<strong> leading a team</strong> (both: tech lead skills and mentorship attitude are highly appreciated)</li></ul><div><br></div><div><strong>Other perks:</strong></div><ul><li>Flexible office hours</li><li>20 paid vacation days</li><li>Superb coffee in the office</li><li>We do projects for various industries, you'll never be bored</li></ul></span>",
+		"dateCreated": "2020-07-19T22:00:00+00:00",
+		"onlineInterview": true,
+		"remote": false
+	}
+]

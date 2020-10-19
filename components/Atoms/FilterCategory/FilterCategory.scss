@@ -1,0 +1,109 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.category {
+    @extend %display-flex;
+    @extend %flex-direction-column;
+    @extend %justify-content-center;
+    @extend %align-items-center;
+    @extend %width-full;
+    @extend %text-transform-capitalize;
+
+    padding-left: 0;
+    min-height: auto;
+    min-width: rem(55);
+    font-weight: $font-weight-light;
+
+    i {
+        @include transition(all 0.2s ease);
+
+        @include size(rem(35));
+
+        @extend %display-flex;
+        @extend %justify-content-center;
+        @extend %align-items-center;
+        @extend %border-radius-circle;
+        @extend %cursor-pointer;
+
+        background-color: $gray-light;
+        color: $color-white;
+    }
+
+
+    &.variant-js {
+        &.is-selected i{
+            background-color: $variant-javascript;
+        }
+
+        i:hover {
+            background-color: $variant-javascript;
+        }
+    }
+
+    &.variant-all {
+        i {
+            @extend %font-style-normal;
+
+            font-weight: $font-weight-light;
+            font-size: $font-size-xs;
+        }
+
+        &.is-selected i{
+            background-color: $variant-all;
+        }
+
+        i:hover {
+            background-color: $variant-all;
+        }
+    }
+
+    &.variant-html5 {
+        &.is-selected i{
+            background-color: $variant-html;
+        }
+
+        i:hover {
+            background-color: $variant-html;
+        }
+    }
+
+    &.variant-php {
+        &.is-selected i{
+            background-color: $variant-php;
+        }
+
+        i:hover {
+            background-color: $variant-php;
+        }
+    }
+
+    &.variant-java {
+        &.is-selected i{
+            background-color: $variant-java;
+        }
+
+        i:hover {
+            background-color: $variant-java;
+        }
+    }
+
+    &.variant-python {
+        &.is-selected i{
+            background-color: $variant-python;
+        }
+
+        i:hover {
+            background-color: $variant-python;
+        }
+    }
+
+    span {
+        font-size: $font-size-xs;
+    }
+
+    ::v-deep label {
+        @extend %display-flex;
+        @extend %justify-content-center;
+        @extend %align-items-center;
+        @extend %flex-direction-column;
+    }
+}

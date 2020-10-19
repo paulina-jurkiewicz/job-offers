@@ -2,7 +2,10 @@
  Nuxt application which allows you to view job offers.
  
  # Technologies
- Nuxt.js
- Typescript
- HTML5
- SaSS
+ Nuxt.js, Typescript, HTML5, SaSS
+ 
+ #Install
+ 
+ npm install
+ 
+ npm run dev

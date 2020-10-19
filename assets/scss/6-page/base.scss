@@ -1,0 +1,11 @@
+@import '../1-abstract/all';
+@import '../flaticon';
+@import '../3-base/reset';
+@import '../3-base/typography';
+@import '../4-layout/grid';
+
+body {
+    background-color: $gray-lightest;
+}
+
+@import '~bootstrap/scss/print';

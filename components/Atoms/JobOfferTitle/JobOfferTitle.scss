@@ -1,0 +1,19 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.job-title {
+    margin-bottom: 0;
+    font-size: $font-size-base;
+
+    &.primary {
+        color: $color-gray-dark;
+    }
+
+    &.secondary {
+        color: $color-white;
+        font-size: rem(18);
+
+        @include media-medium-up() {
+            font-size: rem(22);
+        }
+    }
+}

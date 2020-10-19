@@ -1,0 +1,12 @@
+// @TODO: update readme
+@import "~bootstrap/scss/toasts";
+@import "~bootstrap-vue/src/components/toast/index";
+@import "~bootstrap/scss/close";
+
+.toast {
+    .toast-header {
+        .close {
+            margin-left: auto !important;
+        }
+    }
+}

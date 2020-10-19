@@ -1,0 +1,87 @@
+$color-white: #fff;
+$color-black: #000;
+$color-gray-dark: #333;
+$gray: gray;
+$gray-light: darkgray;
+$gray-lightest: #f1f1f1;
+$blue: #268AF6;
+$blue-dark: #2577C2;
+$indigo: #1E6DBD;
+$purple: #6f42c1;
+$pink: #EC407F;
+$red: #dc3545;
+$orange: #EF6036;
+$orange-dark: #ED4538;
+$yellow: #F6B243;
+$green: #5BC76D;
+$teal: #20c997;
+$cyan: #17a2b8;
+$astral: #768795;
+
+$variant-all: $purple;
+$variant-javascript: $yellow;
+$variant-html: $orange;
+$variant-php: $blue;
+$variant-java: $pink;
+$variant-python: $blue-dark;
+
+//$tertiary: $blue;
+//$success: $green;
+//$info: $cyan;
+//$warning: $yellow;
+//$danger: $red;
+
+$label-background-color-info: #E1F5FD;
+$label-color-info: $blue;
+
+$label-background-color-primary: #FDF4F8;
+$label-color-primary: $pink;
+
+// Grid columns
+// Set the number of columns and specify the width of the gutters.
+
+$grid-columns: 12 !default;
+$grid-gutter-width: 30px !default;
+$grid: $grid-gutter-width; //1.875rem;
+
+$upto-xs: 33.9em; // Extra small devices (portrait phones, less than 34em)
+$upto-sm: 47.9em; // Small devices (landscape phones, less than 48em)
+$upto-md: 61.9em; // Medium devices (tablets, less than 62em)
+$upto-lg: 75em; // Large devices (desktops, less than 75em)
+
+
+// Typography
+$font-family-base:            'Montserrat', sans-serif !default;
+
+$font-size-base:              1rem; // 16px
+$font-size-lg:                $font-size-base * 1.125; // 18px
+$font-size-md:                $font-size-base; // 16px
+$font-size-sm:                $font-size-base * .875; // 14px
+$font-size-xs:                $font-size-base * .75; // 12px
+
+$font-weight-light: 100;
+$font-weight-normal: 400;
+$font-weight-bold: 700;
+
+// border
+$border-color: #ebebec;
+$border-color-dark: #ccc;
+$border-radius: 4px;
+$border-radius-large: 8px;
+$border-radius-rounded: 20px;
+$border-width: 1px;
+$border-style: solid;
+$border: $border-width $border-style $border-color;
+$border-dark: $border-width $border-style $border-color-dark;
+$border-secondary: $border-width $border-style $blue;
+
+$icomoon-font-path: "~static/fonts" !default;
+
+$button-color-secondary: $blue;
+$button-color-secondary-opacity: #bcd7f585;
+
+// bootstrap variables must be placed below this line because of "!default" keyword
+@import '~bootstrap/scss/variables';
+@import '~bootstrap-vue/src/variables';
+
+$card-box-shadow: rgba(0, 0, 0, 0.08) 0px 2px 2px 0px, rgba(0, 0, 0, 0.06) 0px 1px 5px 0px;

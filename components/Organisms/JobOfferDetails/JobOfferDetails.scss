@@ -1,0 +1,28 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.job-details {
+    @extend %display-flex;
+    @extend %justify-content-space-around;
+    @extend %align-items-center;
+
+    flex-wrap: wrap;
+    margin-bottom: $grid / 2;
+
+    @include media-medium-up() {
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: inherit;
+        margin-top: $grid;
+    }
+
+    ::v-deep .card {
+        box-sizing: border-box;
+        width: 45%;
+        margin-top: $grid;
+
+        @include media-medium-up() {
+            width: 100%;
+            margin-top: 0;
+        }
+    }
+}

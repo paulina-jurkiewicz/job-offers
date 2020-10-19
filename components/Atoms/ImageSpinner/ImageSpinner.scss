@@ -1,0 +1,39 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.ripple {
+    @extend %display-inline-block;
+    @extend %position-absolute;
+
+    height: rem(50);
+    width: rem(50);
+
+    &__circle {
+        @extend %border-radius-circle;
+        @extend %position-absolute;
+
+        animation: ripple 1s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+        border: 4px solid $gray;
+        opacity: 1;
+    }
+
+    &__inner-circle {
+        animation-delay: -0.5s;
+    }
+}
+
+@keyframes ripple {
+    0% {
+        top: rem(25);
+        left: rem(25);
+        width: 0;
+        height: 0;
+        opacity: 1;
+    }
+    100% {
+        top: 0;
+        left: 0;
+        width: rem(50);
+        height: rem(50);
+        opacity: 0;
+    }
+}

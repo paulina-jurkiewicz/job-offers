@@ -1,0 +1,125 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.job-offer {
+    @extend %position-relative;
+    @extend %display-flex;
+    @extend %justify-content-center;
+    @extend %flex-direction-column;
+    @extend %border-radius;
+    @extend %width-full;
+    @extend %cursor-pointer;
+
+    padding-left: rem(80);
+    padding-top: $grid / 3;
+    padding-right: $grid / 3;
+    padding-bottom: $grid / 3;
+    margin-bottom: $grid / 2;
+    background-color: $color-white;
+    min-height: rem(80);
+    border-left: rem(5) solid transparent;
+
+    @include media-smaller-up() {
+        align-items: center;
+        flex-direction: row;
+        min-height: rem(90);
+        padding-left: rem(90);
+        padding-top: $grid / 2;
+        padding-right: $grid / 2;
+        padding-bottom: $grid / 2;
+        justify-content: space-between;
+    }
+
+    @include media-small-up() {
+        align-items: inherit;
+    }
+
+    &.variant-js {
+        border-color: $variant-javascript;
+    }
+
+    &.variant-html5 {
+        border-color: $variant-html;
+    }
+
+    &.variant-php {
+        border-color: $variant-php;
+    }
+
+    &.variant-ruby {
+        border-color: $variant-java;
+    }
+
+    &.variant-python {
+        border-color: $variant-python;
+    }
+
+    &__logo {
+        @extend %position-absolute;
+
+        left: $grid / 3;
+
+        @include media-smaller-up() {
+            left: $grid / 2;
+        }
+    }
+
+    &__tags {
+        @extend %display-flex;
+        @extend %justify-content-center;
+        @extend %align-items-center;
+    }
+
+    &__column {
+        @extend %display-flex;
+        @extend %flex-direction-column;
+
+        justify-content: inherit;
+
+        &--right {
+            align-items: end;
+
+            @include media-smaller-up() {
+                align-items: flex-end;
+            }
+        }
+    }
+
+    &__additional-info {
+        @extend %display-flex;
+        @extend %flex-direction-column;
+
+        justify-content: inherit;
+        align-items: end;
+
+        @include media-smaller-up() {
+            align-items: flex-end;
+        }
+
+        .additional-info {
+            &__top {
+                @extend %display-flex;
+                @extend %justify-content-center;
+                @extend %align-items-center;
+                @extend %flex-direction-row;
+
+                @include media-smaller-up() {
+                    flex-direction: column;
+                }
+
+                @include media-small-up() {
+                    flex-direction: row;
+                }
+            }
+
+            &__bottom {
+                @extend %display-flex;
+                @extend %align-items-center;
+            }
+        }
+    }
+
+    &__details {
+        @extend %display-flex;
+        @extend %align-items-center;
+    }
+}

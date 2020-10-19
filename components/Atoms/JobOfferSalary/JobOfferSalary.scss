@@ -1,0 +1,11 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.job-salary {
+    font-size: $font-size-sm;
+    color: $green;
+    padding-right: $grid / 3;
+
+    @include media-small-up() {
+        font-size: $font-size-base;
+    }
+}

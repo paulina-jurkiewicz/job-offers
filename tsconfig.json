@@ -1,0 +1,54 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "module": "esnext",
+        "moduleResolution": "node",
+        "lib": [
+            "esnext",
+            "esnext.asynciterable",
+            "dom",
+            "dom.iterable",
+            "es2015.promise"
+        ],
+        "esModuleInterop": true,
+        "experimentalDecorators": true,
+        "sourceMap": true,
+        "strict": true,
+        "strictNullChecks": false,
+        "allowSyntheticDefaultImports": true,
+        "noEmit": true,
+        "baseUrl": ".",
+        "resolveJsonModule": true,
+        "strictFunctionTypes": false,
+        "suppressImplicitAnyIndexErrors": true,
+        "allowJs": true,
+        "noImplicitAny": false,
+        "skipLibCheck": true,
+        "importHelpers": true,
+        "paths": {
+            "~/*": [
+                "./*"
+            ],
+            "@/*": [
+                "./*"
+            ]
+        },
+        "types": [
+            "@types/node",
+            "@nuxt/types",
+            "@types/webpack-env",
+            "@nuxtjs/axios",
+            "@nuxtjs/moment",
+            "nuxt-i18n",
+            "@nuxt/vue-app",
+            "@types/jest",
+            "vuex-module-decorator/dist"
+        ]
+    },
+    "exclude": [
+        ".nuxt",
+        "dist",
+        "dist.js",
+        "node_modules"
+    ]
+}

@@ -1,0 +1,27 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.card {
+    @include box-shadow($card-box-shadow);
+
+    @extend %border-radius;
+    @extend %position-relative;
+
+    background-color: $color-white;
+    padding-top: rem(25);
+    padding-right: $grid / 3;
+    padding-left: $grid / 3;
+    padding-bottom: $grid / 3;
+
+    &.centered {
+        @extend %display-flex;
+        @extend %justify-content-center;
+        @extend %align-items-center;
+        @extend %flex-direction-column;
+        @extend %text-center;
+    }
+
+    &.small {
+        max-width: rem(150);
+        width: 100%;
+    }
+}

@@ -1,0 +1,104 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.filters {
+    #radio-category {
+        @extend %display-flex;
+    }
+
+    form {
+        @extend %display-flex;
+        @extend %flex-direction-column;
+
+        @include media-medium-up() {
+            flex-direction: row;
+            flex-flow: row wrap;
+            max-width: 700px;
+        }
+    }
+
+    ::v-deep .filter__category {
+        .custom-control-inline {
+            margin-right: 0;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        label {
+            @extend %display-flex;
+            @extend %justify-content-center;
+            @extend %align-items-center;
+            @extend %flex-direction-column;
+
+            &:before,
+            &:after {
+                @extend %position-absolute;
+
+                left: -9999rem;
+            }
+        }
+    }
+
+    ::v-deep select {
+        border-radius: $border-radius-rounded;
+        min-width: rem(200);
+        font-weight: $font-weight-light;
+        font-size: $font-size-sm;
+    }
+
+    ::v-deep .filter__seniority {
+        legend {
+            font-size: $font-size-sm;
+            color: $color-gray-dark;
+            font-weight: $font-weight-light;
+        }
+
+        .custom-control-inline {
+            margin-right: 0;
+            margin-left: 0;
+            padding-left: 0;
+        }
+
+        input:checked + label{
+            font-weight: $font-weight-normal;
+            background-color: $button-color-secondary-opacity;
+            border-color: $button-color-secondary;
+            color: $button-color-secondary;
+        }
+
+        label {
+            @extend %display-flex;
+            @extend %justify-content-center;
+            @extend %align-items-center;
+            @extend %flex-direction-column;
+            @extend %border-dark;
+            @extend %border-radius-large;
+            @extend %cursor-pointer;
+
+            font-weight: $font-weight-light;
+            background-color: $color-white;
+            color: $color-gray-dark;
+            padding: $grid / 6 $grid / 2;
+            margin: 0 $grid / 6;
+            font-size: $font-size-xs;
+            transition-duration: 0.3s;
+
+            &:before,
+            &:after {
+                @extend %position-absolute;
+
+                left: -9999rem;
+            }
+        }
+    }
+
+    ::v-deep .filter__sort-type {
+        margin-left: $grid / 2;
+
+        legend {
+            font-size: $font-size-sm;
+            color: $color-gray-dark;
+            font-weight: $font-weight-light;
+        }
+    }
+}
+

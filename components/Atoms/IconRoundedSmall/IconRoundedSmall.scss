@@ -1,0 +1,20 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.icon {
+    @include size(rem(40), rem(40));
+    @include box-shadow($card-box-shadow);
+
+    @extend %border-radius-circle;
+    @extend %position-absolute;
+    @extend %display-flex;
+    @extend %justify-content-center;
+    @extend %align-items-center;
+
+    top: rem(-20);
+    background-color: $color-white;
+
+    i {
+        font-size: rem(20);
+        padding-top: $grid / 6;
+    }
+}

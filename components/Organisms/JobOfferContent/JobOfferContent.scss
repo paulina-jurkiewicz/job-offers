@@ -1,0 +1,16 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.job-content {
+    @include box-shadow($card-box-shadow);
+
+    @extend %border-radius;
+    @extend %position-relative;
+    @extend %width-full;
+
+    background-color: $color-white;
+    padding-top: $grid / 3;
+    padding-right: $grid / 3;
+    padding-left: $grid / 3;
+    padding-bottom: $grid / 3;
+    margin-bottom: $grid;
+}

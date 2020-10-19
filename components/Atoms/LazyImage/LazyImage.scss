@@ -1,0 +1,45 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.image {
+    &__wrapper {
+        @extend %display-flex;
+        @extend %align-items-center;
+        @extend %justify-content-center;
+        @extend %border-radius;
+
+        min-height: rem(60);
+        min-width: rem(60);
+
+        &.loaded {
+            .image {
+                &__item {
+                    border: 0;
+                    opacity: 1;
+                    visibility: visible;
+                }
+
+                &__spinner {
+                    display: none;
+                    width: 100%;
+                }
+            }
+        }
+
+        &.no-loaded {
+            .image {
+                &__spinner {
+                    display: none;
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    &__item {
+        border-radius: 4px;
+        opacity: 0;
+        transition: all 0.4s ease-in-out;
+        visibility: hidden;
+        width: 100%;
+    }
+}

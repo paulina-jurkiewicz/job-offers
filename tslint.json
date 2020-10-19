@@ -1,0 +1,115 @@
+{
+    "extends": [
+        "tslint:recommended"
+    ],
+    "rules": {
+        // Custom
+        "whitespace": [
+            true,
+            "check-branch",
+            "check-decl",
+            "check-operator",
+            "check-module",
+            "check-separator",
+            "check-rest-spread",
+            "check-type",
+            "check-typecast",
+            "check-type-operator",
+            "check-preblock",
+            "check-postbrace"
+        ],
+        "import-spacing": false,
+        "trailing-comma": [
+            false,
+            {
+                "multiline": "always",
+                "singleline": "never"
+            }
+        ],
+        "interface-name": [
+            false,
+            "always-prefix"
+        ],
+        "component-class-suffix": false,
+        "directive-class-suffix": false,
+        "space-before-function-paren": [
+            true,
+            {
+                "named": "never",
+                "anonymous": "always",
+                "asyncArrow": "always",
+                "constructor": "never",
+                "method": "never"
+            }
+        ],
+        "no-empty": false,
+        "no-empty-interface": false,
+        "no-reference": true,
+        "no-var-requires": true,
+        "no-namespace": false,
+        "no-misused-new": false,
+        "only-arrow-functions": [
+            true,
+            "allow-named-functions"
+        ],
+        "prefer-for-of": true,
+        "prefer-const": true,
+        "array-type": [
+            true,
+            "array-simple"
+        ],
+        "ban-types": false,
+        "no-bitwise": false,
+        "no-inferrable-types": [
+            true,
+            "ignore-params"
+        ],
+        "semicolon": [
+            true,
+            "always"
+        ],
+        "await-promise": [
+            true,
+            "Thenable"
+        ],
+        "no-shadowed-variable": false,
+        "no-unused-expression": [
+            true,
+            "allow-fast-null-checks"
+        ],
+        "member-access": false,
+        "member-ordering": [
+            true,
+            {
+                "order": "fields-first"
+            }
+        ],
+        // General
+        "no-console": [
+            true,
+            "time",
+            "timeEnd",
+            "trace"
+        ],
+        "max-line-length": [
+            false
+        ],
+        "no-string-literal": false,
+        "no-use-before-declare": false,
+        "object-literal-sort-keys": false,
+        "ordered-imports": false,
+        "quotemark": [
+            true,
+            "single",
+            "jsx-single",
+            "avoid-escape"
+        ],
+        "variable-name": [
+            true,
+            "allow-leading-underscore",
+            "allow-pascal-case",
+            "ban-keywords",
+            "check-format"
+        ]
+    }
+}

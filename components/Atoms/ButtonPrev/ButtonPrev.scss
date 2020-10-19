@@ -1,0 +1,19 @@
+@import '../../../assets/scss/1-abstract/all';
+
+button {
+    @extend %border-radius;
+    @extend %position-absolute;
+
+    border: none;
+    background-color: rgba(0, 0, 0, 0.2);
+    top: $grid / 3;
+    left: $grid / 2;
+    color: $color-white;
+
+    i {
+        @extend %position-relative;
+
+        left: rem(4);
+        top: rem(2);
+    }
+}

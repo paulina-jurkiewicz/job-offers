@@ -1,0 +1,11 @@
+@import '../../../assets/scss/1-abstract/all';
+
+span {
+    font-size: $font-size-sm;
+}
+
+small {
+    font-size: $font-size-xs;
+    font-weight: $font-weight-light;
+    color: $color-black;
+}

@@ -1,0 +1,28 @@
+@import '~bootstrap/scss/functions';
+
+/// @param {Number} $number - Number to remove unit from
+/// @return {Number} - Unitless number
+@function strip-unit($number) {
+    @if type-of($number) == 'number' and not unitless($number) {
+        @return $number / ($number * 0 + 1);
+    }
+
+    @return $number;
+}
+
+/**
+ * @example font-size: rem(32) => font-size: 2rem;
+ * @example font-size: rem(32px) => font-size: 2rem;
+ * @return {Number}
+ */
+@function rem($pixels, $context: 16rem) {
+    @if (unitless($pixels) == false) {
+        $pixels: strip-unit($pixels);
+    }
+
+    @if (unitless($context) == false) {
+        $context: strip-unit($context);
+    }
+
+    @return #{$pixels/$context}rem;
+}

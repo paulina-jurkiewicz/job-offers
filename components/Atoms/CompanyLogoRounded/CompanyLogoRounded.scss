@@ -1,0 +1,42 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.company-logo {
+    @extend %display-flex;
+    @extend %justify-content-center;
+    @extend %align-items-center;
+    @extend %position-relative;
+    @extend %border-radius-circle;
+
+    padding-top: $grid / 6;
+    padding-right: $grid / 6;
+    padding-bottom: $grid / 6;
+    padding-left: $grid / 6;
+    margin-bottom: 0;
+    height: rem(90);
+    width: rem(90);
+    background-color: $color-white;
+
+    ::v-deep img {
+        padding-top: $grid / 2;
+        padding-bottom: $grid / 2;
+        padding-right: $grid / 2;
+        padding-left: $grid / 2;
+    }
+
+    i {
+        @extend %position-absolute;
+
+        color: $gray;
+        font-size: rem(35);
+    }
+
+    [class^="flaticon"] {
+        @extend %display-none;
+    }
+
+    &.no-loaded {
+        [class^="flaticon"] {
+            @extend %display-block;
+        }
+    }
+}

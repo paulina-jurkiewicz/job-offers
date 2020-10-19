@@ -1,0 +1,46 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.job-header {
+    @extend %display-flex;
+    @extend %align-items-center;
+    @extend %position-relative;
+
+    padding-top: rem(50);
+    padding-bottom: $grid;
+    padding-left: rem(120);
+    padding-right: $grid / 2;
+    //min-height: rem(180);
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+
+    &.variant-js {
+        background-color: $variant-javascript;
+    }
+
+    &.variant-html5 {
+        background-color: $variant-html;
+    }
+
+    &.variant-php {
+        background-color: $variant-php;
+    }
+
+    &.variant-ruby {
+        background-color: $variant-java;
+    }
+
+    &.variant-python {
+        background-color: $variant-python;
+    }
+
+    &__logo {
+        @extend %position-absolute;
+
+        left: $grid / 2;
+        top: rem(50);
+    }
+
+    &__content {
+
+    }
+}

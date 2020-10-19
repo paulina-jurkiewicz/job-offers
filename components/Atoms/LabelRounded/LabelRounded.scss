@@ -1,0 +1,36 @@
+@import '../../../assets/scss/1-abstract/all';
+
+.label {
+    @extend %border;
+    @extend %border-radius-large;
+    @extend %display-none;
+
+    font-size: rem(10);
+    padding-top: rem(3);
+    padding-right: $grid / 3;
+    padding-bottom: rem(3);
+    padding-left: $grid / 3;
+    margin-right: $grid / 6;
+
+    &.default {
+        background-color: $color-white;
+        color: $color-gray-dark;
+    }
+
+    &.info {
+        background-color: $label-background-color-info;
+        color: $label-color-info;
+        border-color: $label-background-color-info;
+    }
+
+    &.primary {
+        background-color: $label-background-color-primary;
+        color: $label-color-primary;
+        border-color: $label-background-color-primary;
+    }
+
+    @include media-small-up() {
+        display: inline-block;
+    }
+
+}
